@@ -41,7 +41,7 @@ def help_handler(client: "Client", message: "types.Message"):
     client.send_chat_action(chat_id, "typing")
     client.send_message(chat_id, "Stop working? "
                                  "Wait a few seconds, send your link again or report bugs at "
-                                 "https://github.com/tgbot-collection/ytdl-bot/issues")
+                                 "https://github.com/tgbot-collection/ytdlbot/issues")
 
 
 @app.on_message(filters.command(["ping"]))
@@ -57,7 +57,7 @@ def help_handler(client: "Client", message: "types.Message"):
     chat_id = message.chat.id
     client.send_chat_action(chat_id, "typing")
     client.send_message(chat_id, "YouTube-DL by @BennyThink\n"
-                                 "GitHub: https://github.com/tgbot-collection/ytdl-bot")
+                                 "GitHub: https://github.com/tgbot-collection/ytdlbot")
 
 
 @app.on_message()
