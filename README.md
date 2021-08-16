@@ -10,15 +10,22 @@ Download videos from YouTube and other platforms through a Telegram Bot
 Send link from YouTube directly to the bot. 
 Any platform [supported by youtube-dl](https://ytdl-org.github.io/youtube-dl/supportedsites.html) will also work.
 
+# Limitation
+Because I have limited resources, hundreds of Gigabytes doesn't sound like a sustainable solution.
+
+**In that case, I added one limitation: 10GiB per 24 hours for each user.**
+
+You can choose to become 'VIP' if you really need large traffic. And also, you could always deploy your own bot.
+
 # Feature
 ![](assets/1.jpeg)
 
-1. fast download and upload. Many thanks to [FastTelethon](https://gist.github.com/painor/7e74de80ae0c819d3e9abcf9989a8dd6) and 
-[JasonKhew96](https://github.com/JasonKhew96)'s contribution on this!
+1. fast download and upload. 
 2. ads free - I'll never send ads to you, also I don't even print logs that will identify you. 
    So feel free to download any type of video from any website.
 
 3. support progress bar 
+4. You can choose to convert video to audio!
 
 # How to deploy?
 ## Normal
